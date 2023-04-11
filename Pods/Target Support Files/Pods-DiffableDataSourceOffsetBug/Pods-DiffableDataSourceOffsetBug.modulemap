@@ -1,0 +1,6 @@
+framework module Pods_DiffableDataSourceOffsetBug {
+  umbrella header "Pods-DiffableDataSourceOffsetBug-umbrella.h"
+
+  export *
+  module * { export * }
+}

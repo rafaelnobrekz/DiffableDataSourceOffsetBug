@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A4812B29E615EC005CDD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A4812A29E615EC005CDD76 /* AppDelegate.swift */; };
+		00A4812D29E615EC005CDD76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A4812C29E615EC005CDD76 /* SceneDelegate.swift */; };
+		00A4812F29E615EC005CDD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A4812E29E615EC005CDD76 /* ViewController.swift */; };
+		00A4813229E615EC005CDD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A4813029E615EC005CDD76 /* Main.storyboard */; };
+		00A4813429E615EE005CDD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A4813329E615EE005CDD76 /* Assets.xcassets */; };
+		00A4813729E615EE005CDD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A4813529E615EE005CDD76 /* LaunchScreen.storyboard */; };
+		4E32273F96D90F401CD3CDB4 /* Pods_DiffableDataSourceOffsetBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830AD901612B8CB50CAF28E5 /* Pods_DiffableDataSourceOffsetBug.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A4812729E615EC005CDD76 /* DiffableDataSourceOffsetBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableDataSourceOffsetBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A4812A29E615EC005CDD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A4812C29E615EC005CDD76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00A4812E29E615EC005CDD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00A4813129E615EC005CDD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A4813329E615EE005CDD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A4813629E615EE005CDD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A4813829E615EE005CDD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B07C1B6ECAD8152EEB3766 /* Pods-DiffableDataSourceOffsetBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiffableDataSourceOffsetBug.release.xcconfig"; path = "Target Support Files/Pods-DiffableDataSourceOffsetBug/Pods-DiffableDataSourceOffsetBug.release.xcconfig"; sourceTree = "<group>"; };
+		830AD901612B8CB50CAF28E5 /* Pods_DiffableDataSourceOffsetBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiffableDataSourceOffsetBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA423CB43433F949780C71D7 /* Pods-DiffableDataSourceOffsetBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiffableDataSourceOffsetBug.debug.xcconfig"; path = "Target Support Files/Pods-DiffableDataSourceOffsetBug/Pods-DiffableDataSourceOffsetBug.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A4812429E615EC005CDD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E32273F96D90F401CD3CDB4 /* Pods_DiffableDataSourceOffsetBug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A4811E29E615EC005CDD76 = {
+			isa = PBXGroup;
+			children = (
+				00A4812929E615EC005CDD76 /* DiffableDataSourceOffsetBug */,
+				00A4812829E615EC005CDD76 /* Products */,
+				A9976CE68B0B817F86C4A9E6 /* Pods */,
+				2D020BB8BF329E8E9BB08BBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00A4812829E615EC005CDD76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A4812729E615EC005CDD76 /* DiffableDataSourceOffsetBug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A4812929E615EC005CDD76 /* DiffableDataSourceOffsetBug */ = {
+			isa = PBXGroup;
+			children = (
+				00A4812A29E615EC005CDD76 /* AppDelegate.swift */,
+				00A4812C29E615EC005CDD76 /* SceneDelegate.swift */,
+				00A4812E29E615EC005CDD76 /* ViewController.swift */,
+				00A4813029E615EC005CDD76 /* Main.storyboard */,
+				00A4813329E615EE005CDD76 /* Assets.xcassets */,
+				00A4813529E615EE005CDD76 /* LaunchScreen.storyboard */,
+				00A4813829E615EE005CDD76 /* Info.plist */,
+			);
+			path = DiffableDataSourceOffsetBug;
+			sourceTree = "<group>";
+		};
+		2D020BB8BF329E8E9BB08BBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830AD901612B8CB50CAF28E5 /* Pods_DiffableDataSourceOffsetBug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9976CE68B0B817F86C4A9E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA423CB43433F949780C71D7 /* Pods-DiffableDataSourceOffsetBug.debug.xcconfig */,
+				65B07C1B6ECAD8152EEB3766 /* Pods-DiffableDataSourceOffsetBug.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A4812629E615EC005CDD76 /* DiffableDataSourceOffsetBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A4813B29E615EE005CDD76 /* Build configuration list for PBXNativeTarget "DiffableDataSourceOffsetBug" */;
+			buildPhases = (
+				28181A559C87268055DD0D7D /* [CP] Check Pods Manifest.lock */,
+				00A4812329E615EC005CDD76 /* Sources */,
+				00A4812429E615EC005CDD76 /* Frameworks */,
+				00A4812529E615EC005CDD76 /* Resources */,
+				C0E39A48CEE02531F155299D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiffableDataSourceOffsetBug;
+			productName = DiffableDataSourceOffsetBug;
+			productReference = 00A4812729E615EC005CDD76 /* DiffableDataSourceOffsetBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A4811F29E615EC005CDD76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					00A4812629E615EC005CDD76 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 00A4812229E615EC005CDD76 /* Build configuration list for PBXProject "DiffableDataSourceOffsetBug" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A4811E29E615EC005CDD76;
+			productRefGroup = 00A4812829E615EC005CDD76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A4812629E615EC005CDD76 /* DiffableDataSourceOffsetBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A4812529E615EC005CDD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A4813729E615EE005CDD76 /* LaunchScreen.storyboard in Resources */,
+				00A4813429E615EE005CDD76 /* Assets.xcassets in Resources */,
+				00A4813229E615EC005CDD76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28181A559C87268055DD0D7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiffableDataSourceOffsetBug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E39A48CEE02531F155299D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiffableDataSourceOffsetBug/Pods-DiffableDataSourceOffsetBug-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiffableDataSourceOffsetBug/Pods-DiffableDataSourceOffsetBug-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiffableDataSourceOffsetBug/Pods-DiffableDataSourceOffsetBug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A4812329E615EC005CDD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A4812F29E615EC005CDD76 /* ViewController.swift in Sources */,
+				00A4812B29E615EC005CDD76 /* AppDelegate.swift in Sources */,
+				00A4812D29E615EC005CDD76 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00A4813029E615EC005CDD76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A4813129E615EC005CDD76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A4813529E615EE005CDD76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A4813629E615EE005CDD76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A4813929E615EE005CDD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A4813A29E615EE005CDD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A4813C29E615EE005CDD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA423CB43433F949780C71D7 /* Pods-DiffableDataSourceOffsetBug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P92QXBV5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiffableDataSourceOffsetBug/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnrtecnologia.DiffableDataSourceOffsetBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A4813D29E615EE005CDD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B07C1B6ECAD8152EEB3766 /* Pods-DiffableDataSourceOffsetBug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P92QXBV5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiffableDataSourceOffsetBug/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rnrtecnologia.DiffableDataSourceOffsetBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A4812229E615EC005CDD76 /* Build configuration list for PBXProject "DiffableDataSourceOffsetBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A4813929E615EE005CDD76 /* Debug */,
+				00A4813A29E615EE005CDD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A4813B29E615EE005CDD76 /* Build configuration list for PBXNativeTarget "DiffableDataSourceOffsetBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A4813C29E615EE005CDD76 /* Debug */,
+				00A4813D29E615EE005CDD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00A4811F29E615EC005CDD76 /* Project object */;
+}
